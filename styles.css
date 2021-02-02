@@ -1,0 +1,80 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: 10vh;
+    background-color: #fefefa;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+.custom-shape-divider-top-1612183514 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1612183514 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1612183514 .shape-fill {
+    fill: #303030;
+}
+
+.about {
+    position: absolute;
+    z-index: 1;
+    top: -4%;
+    left: 1%;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 2rem;
+    padding-top: 1.2rem;
+    text-decoration: none;
+    color: #fefefa;
+}
+
+.my-image {
+    position: absolute;
+    width: 23%;
+    height: 400px;
+    clip-path: circle();
+    z-index: 1;
+    right: 4%;
+    top: 0%;
+    background-image: url("Tharun.jpg");
+    background-size: cover;
+}
+
+.bio {
+    color: #1b1c1e;
+}
+
+.bio h1 {
+    margin-top: 14rem;
+    font-size: 70px;
+    font-family: 'Oxygen', bold, sans-serif;
+    padding-left: 2rem;
+}
+
+.bio p {
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 2rem;
+}
+
+#footer {
+    color: #303030;
+    text-align: center;
+    padding-top: 2%;
+}

@@ -1,0 +1,17 @@
+body {
+    background-image: url("/home/kali/Desktop/Python/web development/abstract-background-red_1078-436.jpg");
+}
+
+.container {
+    position: relative;
+    top: 55vh;
+    background-color: rgba(0, 0, 0, 0.48);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    min-width: 60%;
+    max-width: max-content;
+}
+
+ul {
+    list-style-type: none;
+}
